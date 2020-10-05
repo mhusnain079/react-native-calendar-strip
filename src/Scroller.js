@@ -260,7 +260,7 @@ export default class CalendarScroller extends Component {
           isHorizontal
           scrollViewProps={{
             showsHorizontalScrollIndicator: false,
-            contentContainerStyle: {paddingRight: this.state.itemWidth / 2},
+            contentContainerStyle: {paddingRight: this.state.itemWidth * 9},
           }}
         />
       </View>
