@@ -493,7 +493,7 @@ class CalendarDay extends Component {
         {day}
       </Animated.View>
     ) : (
-      <View style={styles.dateRootContainer}>
+      <View style={{...styles.dateRootContainer,...{justifyContent:'center'}}}>
         {day}
       </View>
     );
